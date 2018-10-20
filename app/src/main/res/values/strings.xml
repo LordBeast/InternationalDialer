@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">International Dialer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="faq_paragraph">
+        <![CDATA[
+         <p>
+          <b>FAQ</b>
+        </p>
+        <ol>
+          <li>
+            <p><b>
+              App not functioning ?
+            </b></p>
+            <p>
+              Open the app, enable logging in Settings page, <br />
+              Try the same scenario. <br />
+              Forward the log file located in "InternationalDialer" to support mailId.
+            </p>
+          </li>
+          <li>
+            <p><b>
+              How to configure settings ?
+            </b></p>
+            <p>
+                Help:<br /><br />
+
+                For example, if your manual dial details are like below:
+                Local dial number: 888 888 8888
+                Calling card number: 44444444
+                PIN: 1234<br /><br />
+
+                Then the dial sequence should be as below.<br />
+                Dial sequence: +18888888888, 44444444, 1234,<br /><br />
+                
+                Please note:<br /><br />
+                1. \'+\' is used for international dialling code<br /><br />
+                2. \'1\' in the beginning of the dial sequence represents the US country code, please replace with appropriate country code as per your location<br /><br />
+                3. Each comma represents 3 seconds of delay, please add additional commas if necessary<br /><br />
+                4. If it is not required to dial the calling card number or the PIN number then you could just ignore those details in the settings, but ensure to add at least one comma at the end (example: +18888888888,)<br /><br />
+<br /><br /><br /><br />
+            </p>
+          </li>
+          <!--<li>-->
+            <!--<p><b>-->
+             <!--Annoying ads ?-->
+            <!--</b></p>-->
+            <!--<p>-->
+             <!--Contribute a small chunk to remove ads.-->
+            <!--</p>-->
+          <!--</li>-->
+        </ol>
+        ]]>
+    </string>
+    <string name="crash_toast_text">Oops!, Application crashed</string>
+    <string name="report_mail_id">add-your-email-id</string>
+    <string name="crash_dialog_text">
+        An unexpected error occured, Kindly help me fix the issue by sending the crash report. Just press ok
+        Note : check permissions
+    </string>
+    <string name="crash_dialog_title">International Dialer crashed!</string>
+    <string name="crash_dialog_comment_prompt">Feel free to add comments</string>
+    <string name="crash_dialog_ok_toast">Thank you. Will analyse shortly.</string>
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat" /> //example, for use with support-v7
+    <string name="banner_ad_unit_id">put-your-bannerId</string>
+</resources>
